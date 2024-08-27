@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+     
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+
+}
+
+header {
+    background-color: #eff0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+
+.logo{
+    text-decoration: none;
+    color: #4472c4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #4f92a1;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #374c73;
+}
+section {
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    background: url(images/صورة4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: right;
+    
+}
+
+.main h2 {
+    color: #3b3838;
+    font-size: 1.4em;
+    font-weight: 600;
+    
+}
+
+.main h2 span {
+    color: #203864;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: #3b3838;
+    font-size: 1.3em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.main-btn {
+    color: #f2f2f2;
+    background-color: #485362;
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover{
+    background-color: #485362;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #333f50;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title {
+      display: flex;
+      justify-content: center;
+      color: #203864;
+      font-size: 2.2em;
+      font-weight: 800;
+      margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: #1f1f1f;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.Projects{
+    background-color: #fff;
+}
+
+.Projects .content{
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.Projects-card{
+    background-color: #fff;
+    box-shadow:  0 5px 25px rgba(1 1 1 / 15%);
+    min-height: 14em;
+    width: 100%
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 40px;
+    transition: 0.7s ease;
+}
+
+.Projects-card:hover {
+    transform: scale(1.05);
+}
+
+.Projects-card:hover {
+    opacity: 0.9;
+}
+.Projects-image img {
+    width: 100%;
+}
+.Projects-info{
+    padding: 1em;
+    font
+}
+.Projects-category {
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #3b3838;
+}
+
+.Projects-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #3b3838;
+}
+.more-details {
+    text-decoration: none;
+    color: #4f92a1;
+}
+.more-details:hover {
+    color: #374c73;
+}
+.content .icon {
+    font-size: 5.5em;
+}
+
+.content .info h3 {
+    color: #1f1f1f;
+}
+
+.content .info a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+.content .info p {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #1f1f1f;
+}
+.footer {
+    background-color: #eff0f0;
+    color: #1f1f1f;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title {
+    font-size: 1..3em;
+    font-weight: 600;
+}
+
+@media (max-width:1023px){
+    header{ padding: 10px 20px;
+    font-size: 0.6em;
+    }
+    section{
+        padding: 10px 20px;
+    }
+    .logo{
+        font-size: 1.7em;
+    }
+    .navigation a{
+        padding-left: 10px;
+        font-size: 1.5em;
+    }
+    .main h2 span{
+        font-size: 1.3em;
+    }
+    .main h3{
+        font-size: 1.3em;
+    }
+    .title{
+        font-size: 1.5em;
+        padding: 20px;
+    }
+    .card{
+         width: 20em;
+    }
+    .Projects-title{
+        font-size: 0.1em;
+    }
+    .footer{
+        padding: 0.9em 0.5em;
+    }
+    .footer .social-icons a{
+        padding: 5px 5px;
+    }
+    }
